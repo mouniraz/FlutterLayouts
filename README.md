@@ -3,7 +3,7 @@
 <img src="https://github.com/mouniraz/FlutterLayouts/blob/main/layouts1.JPG"/>  
 <p>purpose of this activity is to do this Layut using the widgets Row et Col </p> 
 <h2>Structure of widget1</h2>
-1. create a MaterialApp with a Scaffold #
+1. create a MaterialApp with a Scaffold 
 
 ```dart
 MaterialApp(
@@ -74,6 +74,27 @@ Container( margin: EdgeInsets.all(16.0),
 6. Change the color of text to White using TextStyle
 ```dart
 Text("FLUTTER",style: TextStyle(color: Colors.white)
+```
+7. Add BottomBarNavigation to Scaffold with3 icons
+```dart
+bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.business),
+            label: 'Business',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.school),
+            label: 'School',
+          ),
+        ],
+        currentIndex: 0,
+        selectedItemColor: Colors.purple[900],
+        ),
 ```
 ## Exercice 2
 

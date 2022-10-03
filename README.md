@@ -1,9 +1,10 @@
 # FlutterLayouts
 ## Exercice 1     
-<img src="https://github.com/mouniraz/FlutterLayouts/blob/main/layouts1.JPG"/>       
-purpose of this activity is to do this Layut using the widgets Row et Col 
-## Structure of widget
-1. create a MaterialApp with a Scaffold 
+<img src="https://github.com/mouniraz/FlutterLayouts/blob/main/layouts1.JPG"/>  
+<p>purpose of this activity is to do this Layut using the widgets Row et Col </p> 
+<h2>Structure of widget1</h2>
+1. create a MaterialApp with a Scaffold #
+
 ```dart
 MaterialApp(
       title: title,

@@ -110,3 +110,5 @@ ListView(children: [Container(child: Text("A"),height:50,color: Colors.amber,),C
 4. place each Text in the center of container using the widget Center
 the result will be like this </br>
 <img src="https://github.com/mouniraz/FlutterLayouts/blob/main/layouts2.JPG"/>
+5. using the output of Activity1 and Activity To do this LAyout 
+<img src=""/>

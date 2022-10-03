@@ -111,4 +111,4 @@ ListView(children: [Container(child: Text("A"),height:50,color: Colors.amber,),C
 the result will be like this </br>
 <img src="https://github.com/mouniraz/FlutterLayouts/blob/main/layouts2.JPG"/>
 5. using the output of Activity1 and Activity To do this LAyout 
-<img src=""/>
+<img src="https://github.com/mouniraz/FlutterLayouts/blob/main/layout2JPG.JPG"/>

@@ -108,4 +108,5 @@ ListView(children: [Text("A"),Text("B"),Text("C")],padding: EdgeInsets.all(8),)
 ListView(children: [Container(child: Text("A"),height:50,color: Colors.amber,),Container(child:Text("B"),height:50,color: Colors.amber[100],),Container(child:Text("C"),height:50,color: Colors.amber[200],)],padding: EdgeInsets.all(8),)
 ```
 4. place each Text in the center of container using the widget Center
-the result will be like this
+the result will be like this </br>
+<img src=""/>

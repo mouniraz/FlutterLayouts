@@ -97,4 +97,15 @@ bottomNavigationBar: BottomNavigationBar(
         ),
 ```
 ## Exercice 2
-
+the purpose of this activity is to do with ListView
+1. Create a new Widget ListLayout with MaterialApp et Scaffold as widget Root
+2. in the body of scaffold, Display a Listview with three Text A,B, C 
+```dart
+ListView(children: [Text("A"),Text("B"),Text("C")],padding: EdgeInsets.all(8),)
+```
+3. place each Text in a container with a background color that you choose and a height of 50
+```dart
+ListView(children: [Container(child: Text("A"),height:50,color: Colors.amber,),Container(child:Text("B"),height:50,color: Colors.amber[100],),Container(child:Text("C"),height:50,color: Colors.amber[200],)],padding: EdgeInsets.all(8),)
+```
+4. place each Text in the center of container using the widget Center
+the result will be like this

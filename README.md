@@ -75,7 +75,14 @@ Container( margin: EdgeInsets.all(16.0),
 ```dart
 Text("FLUTTER",style: TextStyle(color: Colors.white)
 ```
-7. Add BottomBarNavigation to Scaffold with3 icons
+7. Define a function itemList that return this container 
+```dart
+Widget itemlist()
+{
+      return(....)
+}
+```
+8.Add BottomBarNavigation to Scaffold with3 icons
 ```dart
 bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
@@ -98,7 +105,7 @@ bottomNavigationBar: BottomNavigationBar(
 ```
 ## Exercice 2
 the purpose of this activity is to do with ListView
-1. Create a new Widget ListLayout with MaterialApp et Scaffold as widget Root
+1. Create a new Widget ListLayout 
 2. in the body of scaffold, Display a Listview with three Text A,B, C 
 ```dart
 ListView(children: [Text("A"),Text("B"),Text("C")],padding: EdgeInsets.all(8),)
